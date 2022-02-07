@@ -24,11 +24,11 @@ public class Main {
 
         Singer singer = new Singer("Alex","to win Grammy","Kvartet");
         System.out.println(singer.toString());
-        singer.walk();;
+        singer.singing();
+        singer.playsguitar();
+        singer.walk();
         singer.learn();
         singer.eat();
-        singer.playsguitar();
-        singer.singing();
 
     }
 }
